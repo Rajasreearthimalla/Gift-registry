@@ -1,43 +1,27 @@
 {
-	"name": "@alloc/quick-lru",
-	"version": "5.2.0",
-	"description": "Simple “Least Recently Used” (LRU) cache",
-	"license": "MIT",
-	"repository": "sindresorhus/quick-lru",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"engines": {
-		"node": ">=10"
-	},
-	"scripts": {
-		"test": "xo && nyc ava && tsd"
-	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
-	"keywords": [
-		"lru",
-		"quick",
-		"cache",
-		"caching",
-		"least",
-		"recently",
-		"used",
-		"fast",
-		"map",
-		"hash",
-		"buffer"
-	],
-	"devDependencies": {
-		"ava": "^2.0.0",
-		"coveralls": "^3.0.3",
-		"nyc": "^15.0.0",
-		"tsd": "^0.11.0",
-		"xo": "^0.26.0"
-	}
+  "author": "Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/)",
+  "contributors": [
+    "Mike Atkins <apeherder@gmail.com>"
+  ],
+  "name": "delayed-stream",
+  "description": "Buffers events from a stream until you are ready to handle them.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "homepage": "https://github.com/felixge/node-delayed-stream",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felixge/node-delayed-stream.git"
+  },
+  "main": "./lib/delayed_stream",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "fake": "0.2.0",
+    "far": "0.0.1"
+  }
 }
